@@ -1,7 +1,7 @@
 # Simon Game
 My implementation of Simon Game. This is the last of the advanced projects required to finish Free Code Camp's Front-End Certification. Working demo can be found [here](https://gsuxlzt.github.io/simongame/)
 
-##User Stories
+## User Stories
 
 1. I am presented with a random series of button presses.
 
