@@ -144,6 +144,6 @@ body {
 #start:hover, #strict:hover, .top-left:hover, .top-right:hover, .bottom-left:hover, .bottom-right:hover {
   cursor: pointer;
 }
-#start:active, #start:visited, #start:focus, #strict:active, #strict:visited #strict:focus {
+#start:active, #start:visited, #start:focus, #strict:active, #strict:visited, #strict:focus {
   outline: none;
 }
