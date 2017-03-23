@@ -3,7 +3,7 @@ My implementation of Simon Game. This is the last of the advanced projects requi
 
 ##User Stories
 
-1.I am presented with a random series of button presses.
+1. I am presented with a random series of button presses.
 
 2. Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
 
