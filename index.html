@@ -5,14 +5,15 @@
 	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+<div id="alert-div"><h1>You won! Congratulations! Press the start button to play the game again</h1></div>
 <div class="outer">
-  <div class="quarter top-left">
+  <div class="quarter top-left play" data-sound="TL">
   </div>
-  <div class="quarter top-right">
+  <div class="quarter top-right play" data-sound="TR">
   </div>
-  <div class="quarter bottom-left">
+  <div class="quarter bottom-left play" data-sound="BL">
   </div>
-  <div class="quarter bottom-right">
+  <div class="quarter bottom-right play" data-sound="BR">
   </div>
   <div class="inner-border">
     <div class="quarter top-left">
@@ -47,5 +48,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="scripts/game.js"></script>
+<script src="scripts/ui.js"></script>
 </body>
 </html>

@@ -5,6 +5,17 @@ body {
   padding-top: 50px;
   background-color: #CABAC8;
 }
+
+#alert-div {
+  display: none;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+}
+
+#alert-div >h1{
+  text-align:center;
+}
 .outer {
   position: relative;
   margin: 0 auto;
@@ -128,17 +139,23 @@ body {
   background-color: #FF6B35;
 }
 
-.top-left:hover {
+.TL {
   background-color: #EA2B1F;
 }
-.top-right:hover {
+.TR {
   background-color: #29335C;
 }
-.bottom-left:hover {
+.BL {
   background-color: #7A9E7E;
 }
-.bottom-right:hover {
+.BR {
   background-color: #F7D002;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+  background-color: black;
 }
 
 #start:hover, #strict:hover, .top-left:hover, .top-right:hover, .bottom-left:hover, .bottom-right:hover {
